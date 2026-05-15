@@ -1,0 +1,479 @@
+[
+  {
+    "title": "Cisco Catalyst SD-WAN Controller Auth Bypass Actively Exploited to Gain Admin Access",
+    "url": "https://thehackernews.com/2026/05/cisco-catalyst-sd-wan-controller-auth.html",
+    "summary": "Cisco has released updates to address a maximum-severity authentication bypass flaw (CVE-2026-20182, CVSS 10.0) in Catalyst SD-WAN Controller that has been exploited in limited attacks. The vulnerability allows unauthenticated remote attackers to bypass authentication and obtain administrative privileges by sending crafted requests.",
+    "category": "vulnerability",
+    "error": false,
+    "source": "https://thehackernews.com",
+    "scraped_at": "2026-05-15T01:00:26.378026+00:00"
+  },
+  {
+    "title": "Stealer Backdoor Found in 3 Node-IPC Versions Targeting Developer Secrets",
+    "url": "https://thehackernews.com/2026/05/stealer-backdoor-found-in-3-node-ipc.html",
+    "summary": "Three versions of the npm package node-ipc (9.1.6, 9.2.3, and 12.0.1) have been confirmed as malicious, containing obfuscated stealer/backdoor behavior. The malware fingerprints the host environment, enumerates local files, and attempts to exfiltrate developer and cloud secrets to an external command-and-control server.",
+    "category": "malware",
+    "error": false,
+    "source": "https://thehackernews.com",
+    "scraped_at": "2026-05-15T01:00:26.378026+00:00"
+  },
+  {
+    "title": "ThreatsDay Bulletin: PAN-OS RCE, Mythos cURL Bug, AI Tokenizer Attacks, and 10+ Stories",
+    "url": "https://thehackernews.com/2026/05/threatsday-bulletin-pan-os-rce-mythos.html",
+    "summary": "Palo Alto Networks has released fixes for CVE-2026-0300, a critical buffer overflow vulnerability in PAN-OS User-ID Authentication Portal that allows unauthenticated attackers to execute arbitrary code with root privileges. The flaw has been observed being exploited in the wild.",
+    "category": "vulnerability",
+    "error": false,
+    "source": "https://thehackernews.com",
+    "scraped_at": "2026-05-15T01:00:26.378026+00:00"
+  },
+  {
+    "title": "Ghostwriter Targets Ukrainian Government With Geofenced PDF Phishing, Cobalt Strike",
+    "url": "https://thehackernews.com/2026/05/ghostwriter-targets-ukrainian.html",
+    "summary": "The Belarus-aligned threat group Ghostwriter has been attributed to fresh attacks targeting Ukrainian governmental organizations using geofenced PDF phishing and Cobalt Strike. The group has been actively conducting cyber operations since at least 2016, regularly updating its toolset to evade detection.",
+    "category": "nation-state",
+    "error": false,
+    "source": "https://thehackernews.com",
+    "scraped_at": "2026-05-15T01:00:26.378026+00:00"
+  },
+  {
+    "title": "PraisonAI CVE-2026-44338 Auth Bypass Targeted Within Hours of Disclosure",
+    "url": "https://thehackernews.com/2026/05/praisonai-cve-2026-44338-auth-bypass.html",
+    "summary": "Threat actors have been observed attempting to exploit CVE-2026-44338 (CVSS 7.3), a missing authentication vulnerability in PraisonAI, within four hours of public disclosure. The flaw allows attackers to invoke the API server's protected functionality without a token.",
+    "category": "vulnerability",
+    "error": false,
+    "source": "https://thehackernews.com",
+    "scraped_at": "2026-05-15T01:00:26.378026+00:00"
+  },
+  {
+    "title": "How AI Hallucinations Are Creating Real Security Risks",
+    "url": "https://thehackernews.com/2026/05/how-ai-hallucinations-are-creating-real.html",
+    "summary": "AI hallucinations are introducing serious security risks into critical infrastructure decision-making by exploiting human trust through highly confident yet incorrect outputs. A 2025 evaluation found that most AI models tested were more likely to provide confident, incorrect answers than correct ones on difficult questions.",
+    "category": "other",
+    "error": false,
+    "source": "https://thehackernews.com",
+    "scraped_at": "2026-05-15T01:00:26.378026+00:00"
+  },
+  {
+    "title": "Windows Zero-Days Expose BitLocker Bypasses And CTFMON Privilege Escalation",
+    "url": "https://thehackernews.com/2026/05/windows-zero-days-expose-bitlocker.html",
+    "summary": "A cybersecurity researcher has disclosed two Windows zero-days: YellowKey, a BitLocker bypass affecting Windows 11 and Windows Server 2022/2025, and GreenPlasma, a privilege escalation in Windows Collaborative Translation Framework. YellowKey functions as a backdoor by exploiting the Windows Recovery Environment.",
+    "category": "vulnerability",
+    "error": false,
+    "source": "https://thehackernews.com",
+    "scraped_at": "2026-05-15T01:00:26.378026+00:00"
+  },
+  {
+    "title": "New Fragnesia Linux Kernel LPE Grants Root Access via Page Cache Corruption",
+    "url": "https://thehackernews.com/2026/05/new-fragnesia-linux-kernel-lpe-grants.html",
+    "summary": "CVE-2026-46300 (Fragnesia, CVSS 7.8) is a new Linux kernel local privilege escalation vulnerability in the XFRM ESP-in-TCP subsystem that allows unprivileged attackers to gain root access. This is the third such bug identified in the kernel within two weeks.",
+    "category": "vulnerability",
+    "error": false,
+    "source": "https://thehackernews.com",
+    "scraped_at": "2026-05-15T01:00:26.378026+00:00"
+  },
+  {
+    "title": "18-Year-Old NGINX Rewrite Module Flaw Enables Unauthenticated RCE",
+    "url": "https://thehackernews.com/2026/05/18-year-old-nginx-rewrite-module-flaw.html",
+    "summary": "A critical heap buffer overflow vulnerability (CVE-2026-42945, NGINX Rift, CVSS 9.2) in the ngx_http_rewrite_module has been disclosed after remaining undetected for 18 years. The flaw allows unauthenticated attackers to achieve remote code execution or denial-of-service with crafted requests.",
+    "category": "vulnerability",
+    "error": false,
+    "source": "https://thehackernews.com",
+    "scraped_at": "2026-05-15T01:00:26.378026+00:00"
+  },
+  {
+    "title": "Microsoft's MDASH AI System Finds 16 Windows Flaws Fixed in Patch Tuesday",
+    "url": "https://thehackernews.com/2026/05/microsofts-mdash-ai-system-finds-16.html",
+    "summary": "Microsoft has unveiled MDASH, a multi-model AI-driven system that uses over 100 specialized AI agents to autonomously discover, validate, and prove exploitable defects in complex codebases like Windows. The system is being tested by some customers as part of a limited private preview.",
+    "category": "other",
+    "error": false,
+    "source": "https://thehackernews.com",
+    "scraped_at": "2026-05-15T01:00:26.378026+00:00"
+  },
+  {
+    "title": "Azerbaijani Energy Firm Hit by Repeated Microsoft Exchange Exploitation",
+    "url": "https://thehackernews.com/2026/05/azerbaijani-energy-firm-hit-by-repeated.html",
+    "summary": "A China-affiliated threat actor has been linked to a multi-wave intrusion targeting an Azerbaijani oil and gas company between December 2025 and February 2026. The activity has been attributed to FamousSparrow, which deployed Deed RAT and other backdoors across three separate attack waves.",
+    "category": "nation-state",
+    "error": false,
+    "source": "https://thehackernews.com",
+    "scraped_at": "2026-05-15T01:00:26.378026+00:00"
+  },
+  {
+    "title": "ThreatsDay Bulletin: Edge Plaintext Passwords, ICS 0-Days, Patch-or-Die Alerts and 25+ New Stories",
+    "url": "https://thehackernews.com/2026/05/threatsday-bulletin-edge-plaintext.html",
+    "summary": "A comprehensive bulletin covering multiple cybersecurity threats including Edge plaintext password issues, ICS zero-day vulnerabilities, and critical patch alerts. The bulletin aggregates 25+ new security stories.",
+    "category": "vulnerability",
+    "error": false,
+    "source": "https://thehackernews.com",
+    "scraped_at": "2026-05-15T01:00:26.378026+00:00"
+  },
+  {
+    "title": "⚡ Weekly Recap: AI-Powered Phishing, Android Spying Tool, Linux Exploit, GitHub RCE and More",
+    "url": "https://thehackernews.com/2026/05/weekly-recap-ai-powered-phishing.html",
+    "summary": "A weekly recap covering multiple security incidents including AI-powered phishing campaigns, Android spying tools, Linux exploits, and GitHub remote code execution vulnerabilities. The recap aggregates major security developments from the week.",
+    "category": "other",
+    "error": false,
+    "source": "https://thehackernews.com",
+    "scraped_at": "2026-05-15T01:00:26.378026+00:00"
+  },
+  {
+    "title": "30,000 Facebook Accounts Hacked via Google AppSheet Phishing Campaign",
+    "url": "https://thehackernews.com/2026/05/30000-facebook-accounts-hacked-via.html",
+    "summary": "A phishing campaign exploiting Google AppSheet compromised approximately 30,000 Facebook accounts. The attack demonstrates the vulnerability of users to credential theft through legitimate-looking service integrations.",
+    "category": "breach",
+    "error": false,
+    "source": "https://thehackernews.com",
+    "scraped_at": "2026-05-15T01:00:26.378026+00:00"
+  },
+  {
+    "title": "Critical Apache HTTP/2 Flaw (CVE-2026-23918) Enables DoS and Potential RCE",
+    "url": "https://thehackernews.com/2026/05/critical-apache-http2-flaw-cve-2026.html",
+    "summary": "A critical vulnerability in Apache HTTP/2 (CVE-2026-23918) has been discovered that enables denial of service attacks and potential remote code execution. The flaw poses significant risk to systems running affected Apache versions.",
+    "category": "vulnerability",
+    "error": false,
+    "source": "https://thehackernews.com",
+    "scraped_at": "2026-05-15T01:00:26.378026+00:00"
+  },
+  {
+    "title": "PAN-OS RCE Exploit Under Active Use Enabling Root Access and Espionage",
+    "url": "https://thehackernews.com/2026/05/pan-os-rce-exploit-under-active-use.html",
+    "summary": "A Palo Alto PAN-OS remote code execution vulnerability is being actively exploited in the wild to gain root access and conduct espionage operations. The active exploitation poses an immediate threat to organizations using affected PAN-OS versions.",
+    "category": "vulnerability",
+    "error": false,
+    "source": "https://thehackernews.com",
+    "scraped_at": "2026-05-15T01:00:26.378026+00:00"
+  },
+  {
+    "title": "Linux Kernel Dirty Frag LPE Exploit Enables Root Access Across Major Distributions",
+    "url": "https://thehackernews.com/2026/05/linux-kernel-dirty-frag-lpe-exploit.html",
+    "summary": "A Linux kernel local privilege escalation exploit called Dirty Frag has been discovered that enables root access across major Linux distributions. The vulnerability affects multiple widely-used Linux systems.",
+    "category": "vulnerability",
+    "error": false,
+    "source": "https://thehackernews.com",
+    "scraped_at": "2026-05-15T01:00:26.378026+00:00"
+  },
+  {
+    "title": "Quasar Linux RAT Steals Developer Credentials for Software Supply Chain Compromise",
+    "url": "https://thehackernews.com/2026/05/quasar-linux-rat-steals-developer.html",
+    "summary": "The Quasar Linux RAT malware has been used to steal developer credentials, enabling potential software supply chain compromise attacks. The malware targets developers to gain access to critical software development infrastructure.",
+    "category": "malware",
+    "error": false,
+    "source": "https://thehackernews.com",
+    "scraped_at": "2026-05-15T01:00:26.378026+00:00"
+  },
+  {
+    "title": "Microsoft Details Phishing Campaign Targeting 35,000 Users Across 26 Countries",
+    "url": "https://thehackernews.com/2026/05/microsoft-details-phishing-campaign.html",
+    "summary": "Microsoft has disclosed a large-scale phishing campaign targeting approximately 35,000 users across 26 countries. The campaign demonstrates the widespread nature of credential theft attacks targeting global organizations.",
+    "category": "other",
+    "error": false,
+    "source": "https://thehackernews.com",
+    "scraped_at": "2026-05-15T01:00:26.378026+00:00"
+  },
+  {
+    "title": "Trellix Confirms Source Code Breach With Unauthorized Repository Access",
+    "url": "https://thehackernews.com/2026/05/trellix-confirms-source-code-breach.html",
+    "summary": "Trellix has confirmed a source code breach involving unauthorized access to its code repositories. The breach potentially exposes proprietary security software code to threat actors.",
+    "category": "breach",
+    "error": false,
+    "source": "https://thehackernews.com",
+    "scraped_at": "2026-05-15T01:00:26.378026+00:00"
+  },
+  {
+    "title": "New Linux PamDOORa Backdoor Uses PAM Modules to Steal SSH Credentials",
+    "url": "https://thehackernews.com/2026/05/new-linux-pamdoora-backdoor-uses-pam.html",
+    "summary": "A new Linux backdoor called PamDOORa has been discovered that exploits PAM modules to steal SSH credentials from compromised systems. The backdoor provides persistent access and credential theft capabilities.",
+    "category": "malware",
+    "error": false,
+    "source": "https://thehackernews.com",
+    "scraped_at": "2026-05-15T01:00:26.378026+00:00"
+  },
+  {
+    "title": "Progress Patches Critical MOVEit Automation Bug Enabling Authentication Bypass",
+    "url": "https://thehackernews.com/2026/05/progress-patches-critical-moveit.html",
+    "summary": "Progress Software has released patches for a critical vulnerability in MOVEit Automation that enables authentication bypass. The vulnerability allows attackers to circumvent security controls and gain unauthorized access.",
+    "category": "vulnerability",
+    "error": false,
+    "source": "https://thehackernews.com",
+    "scraped_at": "2026-05-15T01:00:26.378026+00:00"
+  },
+  {
+    "title": "Microsoft May 2026 Patch Tuesday fixes 120 flaws, no zero-days",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-may-2026-patch-tuesday-fixes-120-flaws-no-zero-days/",
+    "summary": "Microsoft released its May 2026 Patch Tuesday update addressing 120 security vulnerabilities. No zero-day exploits were included in this month's patch release.",
+    "category": "vulnerability",
+    "error": false,
+    "source": "https://bleepingcomputer.com",
+    "scraped_at": "2026-05-15T01:00:29.847964+00:00"
+  },
+  {
+    "title": "Shai Hulud attack ships signed malicious TanStack, Mistral npm packages",
+    "url": "https://www.bleepingcomputer.com/news/security/shai-hulud-attack-ships-signed-malicious-tanstack-mistral-npm-packages/",
+    "summary": "The Shai Hulud attack campaign distributed signed malicious packages on npm targeting TanStack and Mistral projects. This supply chain attack compromised multiple popular open-source packages.",
+    "category": "malware",
+    "error": false,
+    "source": "https://bleepingcomputer.com",
+    "scraped_at": "2026-05-15T01:00:29.847964+00:00"
+  },
+  {
+    "title": "Windows 11 KB5089549 & KB5087420 cumulative updates released",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5089549-and-kb5087420-cumulative-updates-released/",
+    "summary": "Microsoft released cumulative updates KB5089549 and KB5087420 for Windows 11. These updates address various security and stability issues.",
+    "category": "vulnerability",
+    "error": false,
+    "source": "https://bleepingcomputer.com",
+    "scraped_at": "2026-05-15T01:00:29.847964+00:00"
+  },
+  {
+    "title": "Instructure reaches 'agreement' with ShinyHunters to stop data leak",
+    "url": "https://www.bleepingcomputer.com/news/security/instructure-reaches-agreement-with-shinyhunters-to-stop-data-leak/",
+    "summary": "Instructure announced an agreement with the ShinyHunters hacking group to halt the threatened data leak of stolen information. The company had previously disclosed a security breach affecting its Canvas platform.",
+    "category": "breach",
+    "error": false,
+    "source": "https://bleepingcomputer.com",
+    "scraped_at": "2026-05-15T01:00:29.847964+00:00"
+  },
+  {
+    "title": "TeamPCP hackers advertise Mistral AI code repos for sale",
+    "url": "https://www.bleepingcomputer.com/news/security/teampcp-hackers-advertise-mistral-ai-code-repos-for-sale/",
+    "summary": "The TeamPCP hacker group is threatening to leak source code from the Mistral AI project unless a buyer is found for the data. The group is actively advertising the stolen code repositories on underground forums.",
+    "category": "breach",
+    "error": false,
+    "source": "https://bleepingcomputer.com",
+    "scraped_at": "2026-05-15T01:00:29.847964+00:00"
+  },
+  {
+    "title": "Hackers exploit auth bypass flaw in Burst Statistics WordPress plugin",
+    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-auth-bypass-flaw-in-burst-statistics-wordpress-plugin/",
+    "summary": "Hackers are leveraging a critical authentication bypass vulnerability in the WordPress plugin Burst Statistics to obtain admin-level access to websites. The flaw allows unauthenticated attackers to gain full control of affected sites.",
+    "category": "vulnerability",
+    "error": false,
+    "source": "https://bleepingcomputer.com",
+    "scraped_at": "2026-05-15T01:00:29.847964+00:00"
+  },
+  {
+    "title": "Cisco warns of new critical SD-WAN flaw exploited in zero-day attacks",
+    "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-critical-sd-wan-flaw-exploited-in-zero-day-attacks/",
+    "summary": "Cisco disclosed a critical Catalyst SD-WAN Controller authentication bypass flaw (CVE-2026-20182) that was actively exploited in zero-day attacks. The vulnerability allows attackers to gain administrative privileges on compromised devices.",
+    "category": "vulnerability",
+    "error": false,
+    "source": "https://bleepingcomputer.com",
+    "scraped_at": "2026-05-15T01:00:29.847964+00:00"
+  },
+  {
+    "title": "OpenAI confirms security breach in TanStack supply chain attack",
+    "url": "https://www.bleepingcomputer.com/news/security/openai-confirms-security-breach-in-tanstack-supply-chain-attack/",
+    "summary": "OpenAI confirmed that two employees' devices were breached in the TanStack supply chain attack affecting hundreds of npm and PyPI packages. The company rotated code-signing certificates as a precautionary measure.",
+    "category": "breach",
+    "error": false,
+    "source": "https://bleepingcomputer.com",
+    "scraped_at": "2026-05-15T01:00:29.847964+00:00"
+  },
+  {
+    "title": "Windows 11 and Microsoft Edge hacked at Pwn2Own Berlin 2026",
+    "url": "https://www.bleepingcomputer.com/news/security/windows-11-and-microsoft-edge-hacked-on-first-day-of-pwn2own-berlin-2026/",
+    "summary": "On the first day of Pwn2Own Berlin 2026, security researchers collected $523,000 in cash awards after exploiting 24 unique zero-days. Windows 11 and Microsoft Edge were among the systems successfully compromised.",
+    "category": "vulnerability",
+    "error": false,
+    "source": "https://bleepingcomputer.com",
+    "scraped_at": "2026-05-15T01:00:29.847964+00:00"
+  },
+  {
+    "title": "18-year-old NGINX vulnerability allows DoS, potential RCE",
+    "url": "https://www.bleepingcomputer.com/news/security/18-year-old-nginx-vulnerability-allows-dos-potential-rce/",
+    "summary": "An 18-year-old flaw in the NGINX open-source web server was discovered using an autonomous scanning system. The vulnerability can be exploited for denial of service and, under certain conditions, remote code execution.",
+    "category": "vulnerability",
+    "error": false,
+    "source": "https://bleepingcomputer.com",
+    "scraped_at": "2026-05-15T01:00:29.847964+00:00"
+  },
+  {
+    "title": "KongTuke hackers now use Microsoft Teams for corporate breaches",
+    "url": "https://www.bleepingcomputer.com/news/security/kongtuke-hackers-now-use-microsoft-teams-for-corporate-breaches/",
+    "summary": "Initial access broker KongTuke has shifted to using Microsoft Teams for social engineering attacks targeting corporate networks. The group can gain persistent access to systems in as little as five minutes.",
+    "category": "other",
+    "error": false,
+    "source": "https://bleepingcomputer.com",
+    "scraped_at": "2026-05-15T01:00:29.847964+00:00"
+  },
+  {
+    "title": "Dell confirms its SupportAssist software causes Windows BSOD crashes",
+    "url": "https://www.bleepingcomputer.com/news/software/dell-confirms-its-supportassist-software-causes-windows-bsod-crashes/",
+    "summary": "Dell confirmed that its SupportAssist software is causing blue-screen crashes on some Windows systems. The issue has affected multiple Dell devices with random reboots since Friday.",
+    "category": "other",
+    "error": false,
+    "source": "https://bleepingcomputer.com",
+    "scraped_at": "2026-05-15T01:00:29.847964+00:00"
+  },
+  {
+    "title": "US charges suspected Dream Market admin arrested in Germany",
+    "url": "https://www.bleepingcomputer.com/news/security/us-charges-suspected-dream-market-admin-arrested-in-germany/",
+    "summary": "The alleged main administrator of Dream Market Incognito Market has been indicted in the United States on money laundering charges. The individual was arrested in Germany and is accused of operating one of the largest dark web marketplaces.",
+    "category": "other",
+    "error": false,
+    "source": "https://bleepingcomputer.com",
+    "scraped_at": "2026-05-15T01:00:29.847964+00:00"
+  },
+  {
+    "title": "New Fragnesia Linux flaw lets attackers gain root privileges",
+    "url": "https://www.bleepingcomputer.com/news/security/new-fragnesia-linux-flaw-lets-attackers-gain-root-privileges/",
+    "summary": "Linux distros are rolling out patches for a high-severity kernel privilege escalation vulnerability (CVE-2026-46300) known as Fragnesia. The flaw allows attackers to run malicious code as root.",
+    "category": "vulnerability",
+    "error": false,
+    "source": "https://bleepingcomputer.com",
+    "scraped_at": "2026-05-15T01:00:29.847964+00:00"
+  },
+  {
+    "title": "West Pharmaceutical says hackers stole data, encrypted systems",
+    "url": "https://www.bleepingcomputer.com/news/security/west-pharmaceutical-says-hackers-stole-data-encrypted-systems/",
+    "summary": "West Pharmaceutical Services disclosed a cyberattack resulting in data exfiltration and system encryption. The incident affected the company's operations and data security.",
+    "category": "breach",
+    "error": false,
+    "source": "https://bleepingcomputer.com",
+    "scraped_at": "2026-05-15T01:00:29.847964+00:00"
+  },
+  {
+    "title": "Iranian hackers targeted major South Korean electronics maker",
+    "url": "https://www.bleepingcomputer.com/news/security/iranian-hackers-targeted-major-south-korean-electronics-maker/",
+    "summary": "The Iran-linked hacking group MuddyWater launched a broad cyber-espionage campaign targeting at least nine high-profile organizations across multiple sectors and countries. The group focused on intelligence gathering from major corporations.",
+    "category": "nation-state",
+    "error": false,
+    "source": "https://bleepingcomputer.com",
+    "scraped_at": "2026-05-15T01:00:29.847964+00:00"
+  },
+  {
+    "title": "New critical Exim mailer flaw allows remote code execution",
+    "url": "https://www.bleepingcomputer.com/news/security/new-critical-exim-mailer-flaw-allows-remote-code-execution/",
+    "summary": "A critical vulnerability in the Exim open-source mail transfer agent could be exploited by unauthenticated remote attackers to execute arbitrary code. The flaw affects certain configurations of the widely-used email software.",
+    "category": "vulnerability",
+    "error": false,
+    "source": "https://bleepingcomputer.com",
+    "scraped_at": "2026-05-15T01:00:29.847964+00:00"
+  },
+  {
+    "title": "Windows BitLocker zero-day gives access to protected drives, PoC released",
+    "url": "https://www.bleepingcomputer.com/news/security/windows-bitlocker-zero-day-gives-access-to-protected-drives-poc-released/",
+    "summary": "A cybersecurity researcher published proof-of-concept exploits for two unpatched Windows vulnerabilities named YellowKey and GreenPlasma, which are a BitLocker bypass and privilege-escalation flaw. The exploits allow attackers to access encrypted drives and gain elevated privileges.",
+    "category": "vulnerability",
+    "error": false,
+    "source": "https://bleepingcomputer.com",
+    "scraped_at": "2026-05-15T01:00:29.847964+00:00"
+  },
+  {
+    "title": "Microsoft fixes BitLocker recovery issue only for Windows 11 users",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bitlocker-recovery-issue-only-for-windows-11-users/",
+    "summary": "Microsoft addressed a known issue causing some Windows 11 systems to boot into BitLocker recovery after installing April 2026 security updates. The fix is only available for Windows 11 users.",
+    "category": "vulnerability",
+    "error": false,
+    "source": "https://bleepingcomputer.com",
+    "scraped_at": "2026-05-15T01:00:29.847964+00:00"
+  },
+  {
+    "title": "Microsoft releases Windows 10 KB5087544 extended security update",
+    "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5087544-extended-security-update/",
+    "summary": "Microsoft has released the KB5087544 extended security update for Windows 10.",
+    "category": "vulnerability",
+    "error": false,
+    "source": "https://bleepingcomputer.com",
+    "scraped_at": "2026-05-15T01:00:29.847964+00:00"
+  },
+  {
+    "title": "Instructure confirms hackers used Canvas flaw to deface portals",
+    "url": "https://www.bleepingcomputer.com/news/security/instructure-confirms-hackers-used-canvas-flaw-to-deface-portals/",
+    "summary": "Instructure has confirmed that hackers exploited a Canvas vulnerability to deface educational portals. The flaw allowed unauthorized access and modification of portal content.",
+    "category": "breach",
+    "error": false,
+    "source": "https://bleepingcomputer.com",
+    "scraped_at": "2026-05-15T01:00:29.847964+00:00"
+  },
+  {
+    "title": "Patch Tuesday, May 2026 Edition",
+    "url": "https://krebsonsecurity.com/2026/05/patch-tuesday-may-2026-edition/",
+    "summary": "Microsoft released software updates addressing at least 118 security vulnerabilities, with 16 earning the critical label that could allow remote control of Windows devices. Major software makers including Apple, Google, Microsoft, Mozilla, and Oracle are fixing record volumes of security bugs, many discovered by AI platforms.",
+    "category": "vulnerability",
+    "error": false,
+    "source": "https://krebsonsecurity.com",
+    "scraped_at": "2026-05-15T01:00:20.101654+00:00"
+  },
+  {
+    "title": "Canvas Breach Disrupts Schools & Colleges Nationwide",
+    "url": "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/",
+    "summary": "The cybercrime group ShinyHunters breached the Canvas education platform and defaced its login page with a ransom demand threatening to leak data from 275 million students and faculty. Instructure disabled the platform during final exams, and evidence suggests this is the third breach by ShinyHunters in eight months.",
+    "category": "ransomware",
+    "error": false,
+    "source": "https://krebsonsecurity.com",
+    "scraped_at": "2026-05-15T01:00:20.101654+00:00"
+  },
+  {
+    "title": "Anti-DDoS Firm Heaped Attacks on Brazilian ISPs",
+    "url": "https://krebsonsecurity.com/2026/04/anti-ddos-firm-heaped-attacks-on-brazilian-isps/",
+    "summary": "A Brazilian DDoS protection firm called Huge Networks had its infrastructure compromised by a threat actor who built a botnet to launch massive DDoS attacks against Brazilian ISPs. The exposed files revealed the attacker used the CEO's SSH keys and exploited vulnerable TP-Link routers to conduct DNS amplification attacks.",
+    "category": "malware",
+    "error": false,
+    "source": "https://krebsonsecurity.com",
+    "scraped_at": "2026-05-15T01:00:20.101654+00:00"
+  },
+  {
+    "title": "'Scattered Spider' Member 'Tylerb' Pleads Guilty",
+    "url": "https://krebsonsecurity.com/2026/04/scattered-spider-member-tylerb-pleads-guilty/",
+    "summary": "A 24-year-old British national and senior member of the cybercrime group Scattered Spider pleaded guilty to charges related to cybercriminal activities. The article content is truncated but indicates legal action against a prominent cybercrime group member.",
+    "category": "other",
+    "error": false,
+    "source": "https://krebsonsecurity.com",
+    "scraped_at": "2026-05-15T01:00:20.101654+00:00"
+  },
+  {
+    "title": "Patch Tuesday, April 2026 Edition",
+    "url": "https://krebsonsecurity.com/2026/04/patch-tuesday-april-2026-edition/",
+    "summary": "Microsoft released patches for 167 security vulnerabilities including a SharePoint Server zero-day and the BlueHammer privilege escalation bug in Windows Defender. Google Chrome fixed its fourth zero-day of 2026, and Adobe released an emergency update for an actively exploited Reader vulnerability.",
+    "category": "vulnerability",
+    "error": false,
+    "source": "https://krebsonsecurity.com",
+    "scraped_at": "2026-05-15T01:00:20.101654+00:00"
+  },
+  {
+    "title": "Russia Hacked Routers to Steal Microsoft Office Tokens",
+    "url": "https://krebsonsecurity.com/2026/04/russia-hacked-routers-to-steal-microsoft-office-tokens/",
+    "summary": "Russian military intelligence-linked hackers used known vulnerabilities in older routers to harvest authentication tokens from Microsoft Office users across more than 18,000 networks. The Forest Blizzard group (APT28) modified DNS settings on primarily unsupported Mikrotik and TP-Link routers to intercept OAuth tokens without deploying malware.",
+    "category": "nation-state",
+    "error": false,
+    "source": "https://krebsonsecurity.com",
+    "scraped_at": "2026-05-15T01:00:20.101654+00:00"
+  },
+  {
+    "title": "Germany Doxes \"UNKN,\" Head of RU Ransomware Gangs REvil, GandCrab",
+    "url": "https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/",
+    "summary": "German authorities identified 31-year-old Russian Daniil Maksimovich Shchukin as UNKN, the leader of the GandCrab and REvil ransomware groups. Shchukin and accomplice Anatoly Sergeevitsch Kravchuk extorted nearly 2 million euros through at least 130 cyberattacks causing over 35 million euros in total economic damage between 2019 and 2021.",
+    "category": "ransomware",
+    "error": false,
+    "source": "https://krebsonsecurity.com",
+    "scraped_at": "2026-05-15T01:00:20.101654+00:00"
+  },
+  {
+    "title": "'CanisterWorm' Springs Wiper Attack Targeting Iran",
+    "url": "https://krebsonsecurity.com/2026/03/canisterworm-springs-wiper-attack-targeting-iran/",
+    "summary": "The financially motivated cybercrime group TeamPCP unleashed a self-propagating wiper worm targeting Iran that destroys data on systems using Iran's timezone or Farsi language settings. The group exploits poorly secured cloud services including Docker APIs, Kubernetes clusters, and Redis servers to spread the malware.",
+    "category": "malware",
+    "error": false,
+    "source": "https://krebsonsecurity.com",
+    "scraped_at": "2026-05-15T01:00:20.101654+00:00"
+  },
+  {
+    "title": "Feds Disrupt IoT Botnets Behind Huge DDoS Attacks",
+    "url": "https://krebsonsecurity.com/2026/03/feds-disrupt-iot-botnets-behind-huge-ddos-attacks/",
+    "summary": "The U.S. Justice Department, along with Canadian and German authorities, dismantled four major IoT botnets (Aisuru, Kimwolf, JackSkid, and Mossad) that compromised over three million devices and were responsible for record-breaking DDoS attacks. The botnets had launched hundreds of thousands of attacks and extorted victims for tens of thousands of dollars.",
+    "category": "other",
+    "error": false,
+    "source": "https://krebsonsecurity.com",
+    "scraped_at": "2026-05-15T01:00:20.101654+00:00"
+  },
+  {
+    "title": "Iran-Backed Hackers Claim Wiper Attack on Medtech Firm Stryker",
+    "url": "https://krebsonsecurity.com/2026/03/iran-backed-hackers-claim-wiper-attack-on-medtech-firm-stryker/",
+    "summary": "The Iran-linked hacktivist group Handala claimed responsibility for a data-wiping attack on medical technology company Stryker, affecting offices in 79 countries and wiping over 200,000 systems. The group claimed the attack was retaliation for a U.S. missile strike on an Iranian school that killed at least 175 people.",
+    "category": "nation-state",
+    "error": false,
+    "source": "https://krebsonsecurity.com",
+    "scraped_at": "2026-05-15T01:00:20.101654+00:00"
+  }
+]

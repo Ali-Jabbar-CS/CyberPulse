@@ -1,0 +1,488 @@
+[
+{
+  "title": "Cisco Catalyst SD-WAN Controller Auth Bypass Actively Exploited to Gain Admin Access",
+  "url": "https://thehackernews.com/2026/05/cisco-catalyst-sd-wan-controller-auth.html",
+  "summary": "Cisco has released updates to address a maximum-severity authentication bypass flaw (CVE-2026-20182, CVSS 10.0) in Catalyst SD-WAN Controller that has...",
+  "category": "vulnerability",
+  "error": false,
+  "source": "https://thehackernews.com",
+  "scraped_at": "2026-05-15T01:00:26.378026+00:00",
+  "cve_ids": [
+    "CVE-2026-20182"
+  ],
+  "severity_hint": "Critical",
+  "affected_software": [
+    "Cisco Catalyst SD-WAN Controller"
+  ],
+  "attack_type": "Privilege Escalation",
+  "threat_actor": "Unknown",
+  "patch_available": true,
+  "defense_relevance": "Critical",
+  "keywords": [
+    "authentication bypass",
+    "admin access",
+    "SD-WAN",
+    "unauthenticated remote attack"
+  ],
+  "analysis": {
+    "threat_level": "Critical",
+    "threat_summary": "An unauthenticated attacker can bypass authentication on Cisco Catalyst SD-WAN Controller (CVSS 10.0) to gain unauthorized admin access. This vulnerability is actively exploited and poses immediate risk to network infrastructure security.",
+    "affected_systems": [
+      "Cisco Catalyst SD-WAN Controller"
+    ],
+    "attack_vector": "Remote unauthenticated attacker exploits authentication bypass flaw to escalate privileges to administrator level without credentials.",
+    "affected_sectors": [
+      "Defense",
+      "Government",
+      "Critical Infrastructure",
+      "Telecommunications"
+    ],
+    "recommended_action": "Immediately inventory all Cisco Catalyst SD-WAN Controller instances in your environment and apply Cisco security patches; isolate affected systems from production networks until patched if updates cannot be deployed immediately.",
+    "relevance_to_defense": "SD-WAN controllers are critical infrastructure for DOD and defense contractor networks; this vulnerability enables complete compromise of network segmentation and access controls across distributed defense operations.",
+    "priority_score": 10
+  }
+},
+
+
+
+
+{
+  "title": "Stealer Backdoor Found in 3 Node-IPC Versions Targeting Developer Secrets",
+  "url": "https://thehackernews.com/2026/05/stealer-backdoor-found-in-3-node-ipc.html",
+  "summary": "Three versions of the npm package node-ipc (9.1.6, 9.2.3, and 12.0.1) have been confirmed as malicious, containing obfuscated stealer/backdoor behavio...",
+  "category": "malware",
+  "error": false,
+  "source": "https://thehackernews.com",
+  "scraped_at": "2026-05-15T01:00:26.378026+00:00",
+  "cve_ids": [],
+  "severity_hint": "Unknown",
+  "affected_software": [
+    "node-ipc 9.1.6",
+    "node-ipc 9.2.3",
+    "node-ipc 12.0.1"
+  ],
+  "attack_type": "Supply Chain",
+  "threat_actor": "Unknown",
+  "patch_available": false,
+  "defense_relevance": "Critical",
+  "keywords": [
+    "stealer",
+    "backdoor",
+    "npm package",
+    "credential exfiltration",
+    "C2 communication"
+  ],
+  "analysis": {
+    "threat_level": "Critical",
+    "threat_summary": "Malicious versions of the widely-used npm package node-ipc contain obfuscated stealer/backdoor functionality targeting developer credentials and secrets. This supply chain compromise poses severe risk to any organization using affected versions, potentially exposing sensitive development credentials across their infrastructure.",
+    "affected_systems": [
+      "node-ipc 9.1.6",
+      "node-ipc 9.2.3",
+      "node-ipc 12.0.1",
+      "All applications and systems with these npm package versions installed"
+    ],
+    "attack_vector": "Compromised npm package versions automatically execute obfuscated malicious code upon installation or runtime, exfiltrating developer credentials and secrets from affected systems.",
+    "affected_sectors": [
+      "Defense",
+      "Aerospace",
+      "Technology",
+      "Software Development",
+      "Government Contracting"
+    ],
+    "recommended_action": "Immediately audit all development environments and CI/CD pipelines for node-ipc installations; remove versions 9.1.6, 9.2.3, and 12.0.1; update to verified clean version; rotate all developer credentials and API keys that may have been exposed.",
+    "relevance_to_defense": "Defense contractors using node-ipc in development environments face direct exposure of classified project credentials, source code access tokens, and authentication materials critical to national security systems.",
+    "priority_score": 10
+  }
+},
+
+
+
+
+{
+  "title": "ThreatsDay Bulletin: PAN-OS RCE, Mythos cURL Bug, AI Tokenizer Attacks, and 10+ Stories",
+  "url": "https://thehackernews.com/2026/05/threatsday-bulletin-pan-os-rce-mythos.html",
+  "summary": "Palo Alto Networks has released fixes for CVE-2026-0300, a critical buffer overflow vulnerability in PAN-OS User-ID Authentication Portal that allows....",
+  "category": "vulnerability",
+  "error": false,
+  "source": "https://thehackernews.com",
+  "scraped_at": "2026-05-15T01:00:26.378026+00:00",
+  "cve_ids": [
+    "CVE-2026-0300"
+  ],
+  "severity_hint": "Critical",
+  "affected_software": [
+    "Palo Alto Networks PAN-OS",
+    "PAN-OS User-ID Authentication Portal"
+  ],
+  "attack_type": "RCE",
+  "threat_actor": "Unknown",
+  "patch_available": true,
+  "defense_relevance": "Critical",
+  "keywords": [
+    "buffer overflow",
+    "unauthenticated",
+    "root privileges",
+    "CVE-2026-0300"
+  ],
+  "analysis": {
+    "threat_level": "Critical",
+    "threat_summary": "CVE-2026-0300 is a critical buffer overflow vulnerability in Palo Alto Networks PAN-OS User-ID Authentication Portal enabling unauthenticated remote code execution. This poses immediate risk to network perimeter security across DOD and defense contractor infrastructure.",
+    "affected_systems": [
+      "Palo Alto Networks PAN-OS",
+      "PAN-OS User-ID Authentication Portal"
+    ],
+    "attack_vector": "Remote attacker exploits buffer overflow in PAN-OS authentication portal to achieve unauthenticated RCE without user interaction.",
+    "affected_sectors": [
+      "Defense",
+      "Government",
+      "Critical Infrastructure"
+    ],
+    "recommended_action": "Immediately apply Palo Alto Networks security patch for CVE-2026-0300 to all PAN-OS deployments and verify User-ID Authentication Portal functionality post-remediation.",
+    "relevance_to_defense": "PAN-OS firewalls are pervasive in DOD networks and defense contractor environments; exploitation enables direct compromise of network access controls and lateral movement.",
+    "priority_score": 10
+  }
+},
+
+
+
+
+{
+  "title": "Windows Zero-Days Expose BitLocker Bypasses And CTFMON Privilege Escalation",
+  "url": "https://thehackernews.com/2026/05/windows-zero-days-expose-bitlocker.html",
+  "summary": "A cybersecurity researcher has disclosed two Windows zero-days: YellowKey, a BitLocker bypass affecting Windows 11 and Windows Server 2022/2025, and G...",
+  "category": "vulnerability",
+  "error": false,
+  "source": "https://thehackernews.com",
+  "scraped_at": "2026-05-15T01:00:26.378026+00:00",
+  "cve_ids": [],
+  "severity_hint": "Critical",
+  "affected_software": [
+    "Windows 11",
+    "Windows Server 2022",
+    "Windows Server 2025",
+    "Windows Collaborative Translation Framework (CTFMON)"
+  ],
+  "attack_type": "Privilege Escalation",
+  "threat_actor": "Unknown",
+  "patch_available": false,
+  "defense_relevance": "Critical",
+  "keywords": [
+    "BitLocker bypass",
+    "Windows Recovery Environment",
+    "Zero-day vulnerability"
+  ],
+  "analysis": {
+    "threat_level": "Critical",
+    "threat_summary": "Two Windows zero-days (YellowKey and CTFMON) enable BitLocker encryption bypass and privilege escalation on Windows 11 and Server platforms. These vulnerabilities directly compromise endpoint security controls critical to DOD classified information protection.",
+    "affected_systems": [
+      "Windows 11",
+      "Windows Server 2022",
+      "Windows Server 2025",
+      "Windows Collaborative Translation Framework (CTFMON)"
+    ],
+    "attack_vector": "Local attacker exploits BitLocker bypass or CTFMON privilege escalation vulnerability to gain elevated system access and circumvent disk encryption protections.",
+    "affected_sectors": [
+      "Defense",
+      "Government",
+      "Intelligence Community"
+    ],
+    "recommended_action": "Immediately audit all Windows 11 and Server 2022/2025 systems for exposure; disable CTFMON where not operationally required; implement application whitelisting; monitor for exploitation attempts; coordinate with CISA for patch timeline and interim mitigations.",
+    "relevance_to_defense": "BitLocker bypass and privilege escalation vulnerabilities directly threaten protection of classified data and NOFORN information stored on contractor systems subject to NIST SP 800-171 and DFARS cybersecurity requirements.",
+    "priority_score": 10
+  }
+},
+
+
+
+
+{
+  "title": "18-Year-Old NGINX Rewrite Module Flaw Enables Unauthenticated RCE",
+  "url": "https://thehackernews.com/2026/05/18-year-old-nginx-rewrite-module-flaw.html",
+  "summary": "A critical heap buffer overflow vulnerability (CVE-2026-42945, NGINX Rift, CVSS 9.2) in the ngx_http_rewrite_module has been disclosed after remaining...",
+  "category": "vulnerability",
+  "error": false,
+  "source": "https://thehackernews.com",
+  "scraped_at": "2026-05-15T01:00:26.378026+00:00",
+  "cve_ids": [
+    "CVE-2026-42945"
+  ],
+  "severity_hint": "Critical",
+  "affected_software": [
+    "NGINX",
+    "ngx_http_rewrite_module"
+  ],
+  "attack_type": "RCE",
+  "threat_actor": "Unknown",
+  "patch_available": false,
+  "defense_relevance": "Critical",
+  "keywords": [
+    "heap buffer overflow",
+    "unauthenticated RCE",
+    "NGINX Rift"
+  ],
+  "analysis": {
+    "threat_level": "Critical",
+    "threat_summary": "An 18-year-old heap buffer overflow vulnerability in NGINX's rewrite module allows unauthenticated remote code execution with CVSS 9.2 severity. This poses immediate risk to any internet-facing NGINX deployments, including those supporting DOD and defense contractor operations.",
+    "affected_systems": [
+      "NGINX",
+      "ngx_http_rewrite_module"
+    ],
+    "attack_vector": "Unauthenticated remote attacker exploits heap buffer overflow in NGINX rewrite module to achieve arbitrary code execution on vulnerable servers.",
+    "affected_sectors": [
+      "Defense",
+      "Government",
+      "Critical Infrastructure",
+      "Technology"
+    ],
+    "recommended_action": "Immediately identify all NGINX instances in your environment, apply vendor patches for CVE-2026-42945, and implement temporary WAF rules to block malicious rewrite module requests until patching is complete.",
+    "relevance_to_defense": "NGINX is widely deployed in DOD and defense contractor networks; this unauthenticated RCE vulnerability represents a critical supply chain and operational security risk requiring immediate remediation.",
+    "priority_score": 10
+  }
+},
+
+
+
+
+{
+  "title": "Ghostwriter Targets Ukrainian Government With Geofenced PDF Phishing, Cobalt Strike",
+  "url": "https://thehackernews.com/2026/05/ghostwriter-targets-ukrainian.html",
+  "summary": "The Belarus-aligned threat group Ghostwriter has been attributed to fresh attacks targeting Ukrainian governmental organizations using geofenced PDF p...",
+  "category": "nation-state",
+  "error": false,
+  "source": "https://thehackernews.com",
+  "scraped_at": "2026-05-15T01:00:26.378026+00:00",
+  "cve_ids": [],
+  "severity_hint": "Unknown",
+  "affected_software": [
+    "Ukrainian Government Systems",
+    "PDF readers",
+    "Windows systems"
+  ],
+  "attack_type": "Phishing",
+  "threat_actor": "Ghostwriter",
+  "patch_available": false,
+  "defense_relevance": "Critical",
+  "keywords": [
+    "geofenced PDF phishing",
+    "Cobalt Strike",
+    "Belarus-aligned",
+    "government targeting"
+  ],
+  "analysis": {
+    "threat_level": "Critical",
+    "threat_summary": "Belarus-aligned nation-state group Ghostwriter is actively targeting Ukrainian government systems using geofenced PDF phishing attacks combined with Cobalt Strike deployment. This represents an escalating threat to critical infrastructure and demonstrates advanced social engineering capabilities that could be repurposed against US defense assets.",
+    "affected_systems": [
+      "Ukrainian Government Systems",
+      "PDF readers (all versions)",
+      "Windows systems",
+      "Email systems"
+    ],
+    "attack_vector": "Geofenced PDF phishing emails designed to deliver Cobalt Strike payload to Ukrainian government targets, likely adaptable for other geopolitical targets.",
+    "affected_sectors": [
+      "Government",
+      "Defense",
+      "Critical Infrastructure"
+    ],
+    "recommended_action": "Implement advanced email filtering with geofence-aware threat detection, disable PDF auto-execution features, enforce application whitelisting to block Cobalt Strike, and conduct targeted phishing awareness training emphasizing nation-state tactics used against allied governments.",
+    "relevance_to_defense": "Nation-state adversaries are demonstrating refined phishing and C2 deployment techniques against US-aligned Ukrainian partners; defense contractors must assume these tactics will be adapted for targeting US defense networks and classified programs.",
+    "priority_score": 9
+  }
+},
+
+
+
+
+{
+  "title": "PraisonAI CVE-2026-44338 Auth Bypass Targeted Within Hours of Disclosure",
+  "url": "https://thehackernews.com/2026/05/praisonai-cve-2026-44338-auth-bypass.html",
+  "summary": "Threat actors have been observed attempting to exploit CVE-2026-44338 (CVSS 7.3), a missing authentication vulnerability in PraisonAI, within four hou...",
+  "category": "vulnerability",
+  "error": false,
+  "source": "https://thehackernews.com",
+  "scraped_at": "2026-05-15T01:00:26.378026+00:00",
+  "cve_ids": [
+    "CVE-2026-44338"
+  ],
+  "severity_hint": "Unknown",
+  "affected_software": [
+    "PraisonAI"
+  ],
+  "attack_type": "Privilege Escalation",
+  "threat_actor": "Unknown",
+  "patch_available": false,
+  "defense_relevance": "Critical",
+  "keywords": [
+    "authentication bypass",
+    "API server",
+    "missing authentication",
+    "token bypass"
+  ],
+  "analysis": {
+    "threat_level": "Critical",
+    "threat_summary": "CVE-2026-44338 is a missing authentication vulnerability in PraisonAI being actively exploited within hours of disclosure, enabling privilege escalation attacks. Rapid exploitation timelines and critical defense relevance demand immediate mitigation to prevent unauthorized system access.",
+    "affected_systems": [
+      "PraisonAI"
+    ],
+    "attack_vector": "Unauthenticated attackers exploit missing authentication controls to bypass access restrictions and escalate privileges on vulnerable PraisonAI instances.",
+    "affected_sectors": [
+      "Defense",
+      "Intelligence",
+      "Aerospace",
+      "Government"
+    ],
+    "recommended_action": "Immediately inventory all PraisonAI deployments across the organization, apply available patches or disable the service if patches are unavailable, and implement network segmentation to restrict access to affected systems.",
+    "relevance_to_defense": "PraisonAI vulnerabilities pose direct risk to DOD and defense contractor operations if the tool is used for mission-critical AI workflows, data analysis, or classified information processing.",
+    "priority_score": 9
+  }
+},
+
+
+
+
+{
+  "title": "How AI Hallucinations Are Creating Real Security Risks",
+  "url": "https://thehackernews.com/2026/05/how-ai-hallucinations-are-creating-real.html",
+  "summary": "AI hallucinations are introducing serious security risks into critical infrastructure decision-making by exploiting human trust through highly confide...",
+  "category": "other",
+  "error": false,
+  "source": "https://thehackernews.com",
+  "scraped_at": "2026-05-15T01:00:26.378026+00:00",
+  "cve_ids": [],
+  "severity_hint": "Critical",
+  "affected_software": [
+    "AI models",
+    "Critical infrastructure decision-making systems",
+    "Enterprise AI deployments"
+  ],
+  "attack_type": "Other",
+  "threat_actor": "Unknown",
+  "patch_available": false,
+  "defense_relevance": "Critical",
+  "keywords": [
+    "AI hallucinations",
+    "confidence calibration",
+    "critical infrastructure",
+    "decision-making exploitation",
+    "model reliability"
+  ],
+  "analysis": {
+    "threat_level": "Critical",
+    "threat_summary": "AI models generate confident but factually incorrect outputs (hallucinations) that can deceive decision-makers in critical infrastructure environments. This directly undermines situational awareness and command decisions in defense and military operations.",
+    "affected_systems": [
+      "AI models",
+      "Critical infrastructure decision-making systems",
+      "Enterprise AI deployments",
+      "Autonomous systems",
+      "Intelligence analysis platforms"
+    ],
+    "attack_vector": "Adversaries exploit AI hallucinations by deploying or influencing AI systems that generate plausible but false information, which human operators trust and act upon without verification.",
+    "affected_sectors": [
+      "Defense",
+      "Military Operations",
+      "Critical Infrastructure",
+      "Naval Operations",
+      "Cybersecurity Operations Centers"
+    ],
+    "recommended_action": "Implement mandatory human-in-the-loop verification protocols requiring independent source validation before any AI-generated intelligence or recommendations inform operational decisions; establish AI output confidence thresholds and audit trails.",
+    "relevance_to_defense": "AI hallucinations pose direct operational risk to DOD decision-making and Navy command systems, potentially leading to compromised tactical/strategic decisions if AI-generated intelligence is treated as factual without rigorous verification.",
+    "priority_score": 9
+  }
+},
+
+
+
+
+{
+  "title": "New Fragnesia Linux Kernel LPE Grants Root Access via Page Cache Corruption",
+  "url": "https://thehackernews.com/2026/05/new-fragnesia-linux-kernel-lpe-grants.html",
+  "summary": "CVE-2026-46300 (Fragnesia, CVSS 7.8) is a new Linux kernel local privilege escalation vulnerability in the XFRM ESP-in-TCP subsystem that allows unpri...",
+  "category": "vulnerability",
+  "error": false,
+  "source": "https://thehackernews.com",
+  "scraped_at": "2026-05-15T01:00:26.378026+00:00",
+  "cve_ids": [
+    "CVE-2026-46300"
+  ],
+  "severity_hint": "Unknown",
+  "affected_software": [
+    "Linux Kernel",
+    "XFRM ESP-in-TCP subsystem"
+  ],
+  "attack_type": "Privilege Escalation",
+  "threat_actor": "Unknown",
+  "patch_available": false,
+  "defense_relevance": "Critical",
+  "keywords": [
+    "Linux Kernel LPE",
+    "Page Cache Corruption",
+    "Root Access",
+    "XFRM ESP-in-TCP",
+    "CVE-2026-46300"
+  ],
+  "analysis": {
+    "threat_level": "Critical",
+    "threat_summary": "CVE-2026-46300 is a local privilege escalation vulnerability in the Linux kernel XFRM ESP-in-TCP subsystem that allows unprivileged users to achieve root access through page cache corruption. This poses severe risk to DOD and defense contractor systems where kernel-level compromise enables complete system control and potential lateral movement.",
+    "affected_systems": [
+      "Linux Kernel",
+      "XFRM ESP-in-TCP subsystem",
+      "Systems utilizing ESP-in-TCP encapsulation"
+    ],
+    "attack_vector": "An unprivileged local attacker exploits page cache corruption in the XFRM ESP-in-TCP subsystem to execute arbitrary code with root privileges.",
+    "affected_sectors": [
+      "Defense",
+      "Government",
+      "Critical Infrastructure"
+    ],
+    "recommended_action": "Immediately inventory all Linux systems utilizing XFRM/ESP-in-TCP, prioritize patching of affected kernel versions, and implement access controls restricting local user privileges pending patch deployment.",
+    "relevance_to_defense": "Linux kernel LPE vulnerabilities in cryptographic subsystems are particularly critical for DOD as they compromise the integrity of secure communications infrastructure and enable insider threat escalation on classified and unclassified networks.",
+    "priority_score": 9
+  }
+},
+
+
+
+
+{
+  "title": "Microsoft's MDASH AI System Finds 16 Windows Flaws Fixed in Patch Tuesday",
+  "url": "https://thehackernews.com/2026/05/microsofts-mdash-ai-system-finds-16.html",
+  "summary": "Microsoft has unveiled MDASH, a multi-model AI-driven system that uses over 100 specialized AI agents to autonomously discover, validate, and prove ex...",
+  "category": "other",
+  "error": false,
+  "source": "https://thehackernews.com",
+  "scraped_at": "2026-05-15T01:00:26.378026+00:00",
+  "cve_ids": [],
+  "severity_hint": "Unknown",
+  "affected_software": [
+    "Windows"
+  ],
+  "attack_type": "Other",
+  "threat_actor": "Unknown",
+  "patch_available": true,
+  "defense_relevance": "High",
+  "keywords": [
+    "MDASH",
+    "AI vulnerability discovery",
+    "Windows flaws",
+    "autonomous detection",
+    "Patch Tuesday"
+  ],
+  "analysis": {
+    "threat_level": "Medium",
+    "threat_summary": "Microsoft's MDASH AI system has identified 16 previously unknown Windows vulnerabilities that have been patched in the latest Patch Tuesday release. These flaws represent real security gaps that adversaries may have been actively exploiting before remediation.",
+    "affected_systems": [
+      "Windows operating systems",
+      "DOD and Navy Windows-based infrastructure",
+      "Legacy and current Windows deployments"
+    ],
+    "attack_vector": "Remote or local exploitation of Windows kernel and system-level vulnerabilities discovered through autonomous AI-driven vulnerability analysis.",
+    "affected_sectors": [
+      "Defense",
+      "Government",
+      "Critical Infrastructure"
+    ],
+    "recommended_action": "Immediately prioritize deployment of the latest Microsoft Patch Tuesday updates to all Windows systems across DOD networks, with priority given to exposed perimeter systems and mission-critical platforms.",
+    "relevance_to_defense": "These zero-day equivalent flaws in Windows pose direct risk to Navy and DOD operational technology, command and control systems, and classified networks that depend on Windows security.",
+    "priority_score": 8
+  }
+}
+]

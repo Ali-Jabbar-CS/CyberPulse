@@ -1,0 +1,46 @@
+/* @import url() FONT IMPORTS MUST ALWAYS BE AT THE VERY TOP OF THIS FILE, ABOVE THE TAILWIND IMPORTS — DO NOT DELETE THIS COMMENT */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700;800&display=swap');
+
+/* CRITICAL: THE FOLLOWING TAILWIND IMPORTS MUST NEVER BE DELETED OR REORDERED — DO NOT DELETE THIS COMMENT */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* END TAILWIND IMPORTS — ALL OTHER CSS MUST GO BELOW THIS LINE */
+
+@layer base {
+  body {
+    @apply bg-cyber-bg text-slate-300 font-sans antialiased overflow-x-hidden;
+    background-image: 
+      linear-gradient(rgba(0, 245, 255, 0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0, 245, 255, 0.04) 1px, transparent 1px),
+      repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(0, 0, 0, 0.3) 2px, rgba(0, 0, 0, 0.3) 4px);
+    background-size: 40px 40px, 40px 40px, 100% 4px;
+    background-attachment: fixed;
+  }
+  /* Custom Scrollbar for the terminal feel */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-cyber-bg border-l border-cyber-cyan/20;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-cyber-cyan/40 hover:bg-cyber-cyan/60;
+  }
+}
+@layer utilities {
+  .glass-panel {
+    @apply bg-cyber-panel backdrop-blur-sm border border-cyber-cyan/30 shadow-glow-cyan;
+  }
+  .glass-panel-red {
+    @apply bg-cyber-red/5 backdrop-blur-sm border border-cyber-red/40 shadow-glow-red;
+  }
+  .glass-panel-amber {
+    @apply bg-cyber-amber/5 backdrop-blur-sm border border-cyber-amber/40 shadow-glow-amber;
+  }
+  .glass-panel-green {
+    @apply bg-cyber-green/5 backdrop-blur-sm border border-cyber-green/40 shadow-glow-green;
+  }
+}

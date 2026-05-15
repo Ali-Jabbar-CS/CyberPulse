@@ -1,0 +1,533 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-05-15T12:34:17.691305",
+    "pipeline_version": "1.0.0",
+    "total_articles": 10,
+    "sources": [
+      "https://thehackernews.com"
+    ]
+  },
+  "statistics": {
+    "total_articles": 10,
+    "by_threat_level": {
+      "Critical": 10,
+      "High": 0,
+      "Medium": 0,
+      "Low": 0,
+      "Unknown": 0
+    },
+    "by_attack_type": {
+      "Other": 1,
+      "XSS": 1,
+      "Privilege Escalation": 4,
+      "Supply Chain": 2,
+      "RCE": 1,
+      "Phishing": 1
+    },
+    "by_sector": {
+      "Defense": 10,
+      "Government": 10,
+      "Critical Infrastructure": 5,
+      "Aerospace": 3,
+      "Telecommunications": 1,
+      "Technology": 4,
+      "Intelligence": 2,
+      "Public Administration": 1
+    },
+    "cves_identified": [
+      "CVE-2026-42897",
+      "CVE-2026-20182",
+      "CVE-2026-0300",
+      "CVE-2026-44338"
+    ],
+    "patch_available_count": 3,
+    "top_priority_articles": [
+      {
+        "title": "Turla Turns Kazuar Backdoor Into Modular P2P Botnet for Persistent Access",
+        "priority_score": 10,
+        "threat_level": "Critical",
+        "url": "https://thehackernews.com/2026/05/turla-turns-kazuar-backdoor-into.html"
+      },
+      {
+        "title": "On-Prem Microsoft Exchange Server CVE-2026-42897 Exploited via Crafted Email",
+        "priority_score": 10,
+        "threat_level": "Critical",
+        "url": "https://thehackernews.com/2026/05/on-prem-microsoft-exchange-server-cve.html"
+      },
+      {
+        "title": "CISA Adds Cisco SD-WAN CVE-2026-20182 to KEV After Admin Access Exploits",
+        "priority_score": 10,
+        "threat_level": "Critical",
+        "url": "https://thehackernews.com/2026/05/cisa-adds-cisco-sd-wan-cve-2026-20182.html"
+      }
+    ]
+  }
+,
+  "articles": [
+    {
+      "title": "Turla Turns Kazuar Backdoor Into Modular P2P Botnet for Persistent Access",
+      "url": "https://thehackernews.com/2026/05/turla-turns-kazuar-backdoor-into.html",
+      "summary": "Russian state-sponsored group Turla has transformed its Kazuar backdoor into a modular peer-to-peer botnet designed for stealth and persistent access....",
+      "category": "nation-state",
+      "error": false,
+      "source": "https://thehackernews.com",
+      "scraped_at": "2026-05-15T19:33:28.680906+00:00",
+      "cve_ids": [],
+      "severity_hint": "Unknown",
+      "affected_software": [
+        "Kazuar backdoor"
+      ],
+      "attack_type": "Other",
+      "threat_actor": "Turla",
+      "patch_available": false,
+      "defense_relevance": "Critical",
+      "keywords": [
+        "backdoor",
+        "botnet",
+        "peer-to-peer",
+        "persistent access",
+        "nation-state"
+      ],
+      "analysis": {
+        "threat_level": "Critical",
+        "threat_summary": "Russian state-sponsored Turla group has weaponized the Kazuar backdoor into a modular P2P botnet enabling persistent, difficult-to-detect access to compromised networks. This represents an advanced persistent threat specifically targeting high-value defense and government infrastructure.",
+        "affected_systems": [
+          "Kazuar backdoor",
+          "Systems running Kazuar-infected hosts",
+          "P2P botnet nodes"
+        ],
+        "attack_vector": "Deployment of modular Kazuar backdoor leading to P2P botnet infection, enabling persistent command and control through distributed peer-to-peer architecture.",
+        "affected_sectors": [
+          "Defense",
+          "Government",
+          "Critical Infrastructure"
+        ],
+        "recommended_action": "Immediately conduct network hunting for Kazuar indicators of compromise, implement enhanced monitoring for P2P communication patterns, and review access logs for unexplained remote connections; escalate findings to CISA and relevant DOD cybersecurity authorities.",
+        "relevance_to_defense": "Turla's modular P2P botnet presents direct threat to DOD networks and defense contractors' classified and sensitive systems, enabling advanced persistent access and potential exfiltration of defense-critical intelligence.",
+        "priority_score": 10
+      }
+    },
+
+
+
+    {
+      "title": "On-Prem Microsoft Exchange Server CVE-2026-42897 Exploited via Crafted Email",
+      "url": "https://thehackernews.com/2026/05/on-prem-microsoft-exchange-server-cve.html",
+      "summary": "Microsoft disclosed a critical cross-site scripting vulnerability in on-premise Exchange Server that is being actively exploited in the wild. Attacker...",
+      "category": "vulnerability",
+      "error": false,
+      "source": "https://thehackernews.com",
+      "scraped_at": "2026-05-15T19:33:28.680906+00:00",
+      "cve_ids": [
+        "CVE-2026-42897"
+      ],
+      "severity_hint": "Critical",
+      "affected_software": [
+        "Microsoft Exchange Server (on-premise)",
+        "Outlook Web Access"
+      ],
+      "attack_type": "XSS",
+      "threat_actor": "Unknown",
+      "patch_available": false,
+      "defense_relevance": "Critical",
+      "keywords": [
+        "cross-site scripting",
+        "crafted email",
+        "arbitrary code execution",
+        "active exploitation",
+        "Exchange Server vulnerability"
+      ],
+      "analysis": {
+        "threat_level": "Critical",
+        "threat_summary": "A critical cross-site scripting (XSS) vulnerability in on-premise Microsoft Exchange Server is being actively exploited via crafted emails. This vulnerability directly threatens DOD and defense contractor email infrastructure, potentially enabling credential theft, malware delivery, and unauthorized access to classified communications.",
+        "affected_systems": [
+          "Microsoft Exchange Server (on-premise)",
+          "Outlook Web Access (OWA)"
+        ],
+        "attack_vector": "Attackers craft malicious emails containing XSS payloads that execute in victim browsers when opened in Outlook Web Access or Exchange-based email clients.",
+        "affected_sectors": [
+          "Defense",
+          "Government",
+          "Aerospace"
+        ],
+        "recommended_action": "Immediately patch all on-premise Exchange Server installations to the latest security update; implement email content filtering rules to block known malicious patterns; conduct mailbox forensics for indicators of compromise on affected systems.",
+        "relevance_to_defense": "Active exploitation of Exchange Server vulnerabilities poses direct operational security risks to DOD networks and defense contractors handling sensitive communications, requiring immediate mitigation to prevent adversary access to classified or controlled unclassified information.",
+        "priority_score": 10
+      }
+    },
+
+
+
+    {
+      "title": "CISA Adds Cisco SD-WAN CVE-2026-20182 to KEV After Admin Access Exploits",
+      "url": "https://thehackernews.com/2026/05/cisa-adds-cisco-sd-wan-cve-2026-20182.html",
+      "summary": "CISA added a critical authentication bypass vulnerability in Cisco Catalyst SD-WAN Controller to its Known Exploited Vulnerabilities catalog with a CV...",
+      "category": "vulnerability",
+      "error": false,
+      "source": "https://thehackernews.com",
+      "scraped_at": "2026-05-15T19:33:28.680906+00:00",
+      "cve_ids": [
+        "CVE-2026-20182"
+      ],
+      "severity_hint": "Critical",
+      "affected_software": [
+        "Cisco Catalyst SD-WAN Controller"
+      ],
+      "attack_type": "Privilege Escalation",
+      "threat_actor": "Unknown",
+      "patch_available": false,
+      "defense_relevance": "Critical",
+      "keywords": [
+        "authentication bypass",
+        "administrative access",
+        "unauthenticated remote",
+        "SD-WAN",
+        "CVE-2026-20182"
+      ],
+      "analysis": {
+        "threat_level": "Critical",
+        "threat_summary": "Authentication bypass vulnerability in Cisco Catalyst SD-WAN Controller allows unauthenticated attackers to gain administrative access and escalate privileges. This is actively exploited and poses immediate risk to network infrastructure integrity across defense organizations.",
+        "affected_systems": [
+          "Cisco Catalyst SD-WAN Controller"
+        ],
+        "attack_vector": "Unauthenticated attacker exploits authentication bypass flaw to gain admin-level access without valid credentials.",
+        "affected_sectors": [
+          "Defense",
+          "Government",
+          "Critical Infrastructure"
+        ],
+        "recommended_action": "Immediately inventory all Cisco SD-WAN Controller deployments, apply vendor security patches, and implement network segmentation to isolate affected controllers from untrusted networks pending remediation.",
+        "relevance_to_defense": "SD-WAN controllers are critical to DOD network segmentation and edge security; compromise enables lateral movement, data exfiltration, and persistent access to classified networks.",
+        "priority_score": 10
+      }
+    },
+
+
+
+    {
+      "title": "Cisco Catalyst SD-WAN Controller Auth Bypass Actively Exploited to Gain Admin Access",
+      "url": "https://thehackernews.com/2026/05/cisco-catalyst-sd-wan-controller-auth.html",
+      "summary": "Cisco released updates for a maximum-severity authentication bypass flaw in Catalyst SD-WAN Controller that has been exploited in limited attacks. The...",
+      "category": "vulnerability",
+      "error": false,
+      "source": "https://thehackernews.com",
+      "scraped_at": "2026-05-15T19:33:28.680906+00:00",
+      "cve_ids": [],
+      "severity_hint": "Critical",
+      "affected_software": [
+        "Cisco Catalyst SD-WAN Controller"
+      ],
+      "attack_type": "Privilege Escalation",
+      "threat_actor": "Unknown",
+      "patch_available": true,
+      "defense_relevance": "Critical",
+      "keywords": [
+        "authentication bypass",
+        "peering mechanism",
+        "admin access"
+      ],
+      "analysis": {
+        "threat_level": "Critical",
+        "threat_summary": "An authentication bypass vulnerability in Cisco Catalyst SD-WAN Controller allows unauthenticated attackers to gain administrative access and is actively being exploited in limited attacks. This directly threatens network integrity and confidentiality across defense and critical infrastructure sectors.",
+        "affected_systems": [
+          "Cisco Catalyst SD-WAN Controller"
+        ],
+        "attack_vector": "Unauthenticated attackers exploit an authentication bypass flaw to bypass login mechanisms and escalate privileges to administrator level without valid credentials.",
+        "affected_sectors": [
+          "Defense",
+          "Government",
+          "Critical Infrastructure",
+          "Telecommunications"
+        ],
+        "recommended_action": "Immediately apply Cisco security patches to all Catalyst SD-WAN Controller instances and audit access logs for indicators of compromise; isolate affected systems from production networks until patched if immediate remediation is not feasible.",
+        "relevance_to_defense": "SD-WAN controllers are critical network infrastructure for DOD and defense contractor operations; compromise enables lateral movement, data exfiltration, and persistent access to classified and sensitive military systems.",
+        "priority_score": 10
+      }
+    },
+
+
+
+    {
+      "title": "Stealer Backdoor Found in 3 Node-IPC Versions Targeting Developer Secrets",
+      "url": "https://thehackernews.com/2026/05/stealer-backdoor-found-in-3-node-ipc.html",
+      "summary": "Three versions of the npm package node-ipc contain obfuscated stealer/backdoor malware that fingerprints hosts, enumerates files, and exfiltrates deve...",
+      "category": "malware",
+      "error": false,
+      "source": "https://thehackernews.com",
+      "scraped_at": "2026-05-15T19:33:28.680906+00:00",
+      "cve_ids": [],
+      "severity_hint": "Unknown",
+      "affected_software": [
+        "node-ipc"
+      ],
+      "attack_type": "Supply Chain",
+      "threat_actor": "Unknown",
+      "patch_available": false,
+      "defense_relevance": "Critical",
+      "keywords": [
+        "stealer",
+        "backdoor",
+        "npm package",
+        "credential exfiltration",
+        "C2"
+      ],
+      "analysis": {
+        "threat_level": "Critical",
+        "threat_summary": "Obfuscated stealer/backdoor malware embedded in node-ipc npm package versions exfiltrates developer credentials and secrets through supply chain compromise. This affects any defense contractor or DOD system using affected versions in development environments or production deployments.",
+        "affected_systems": [
+          "node-ipc npm package",
+          "Node.js development environments",
+          "CI/CD pipelines",
+          "Developer workstations"
+        ],
+        "attack_vector": "Malicious npm package dependencies automatically downloaded and executed during npm install, fingerprinting hosts and exfiltrating secrets without user awareness.",
+        "affected_sectors": [
+          "Defense",
+          "Aerospace",
+          "Government",
+          "Technology",
+          "Critical Infrastructure"
+        ],
+        "recommended_action": "Immediately audit all development and production systems for node-ipc installations, identify affected versions, revoke all exposed credentials, and implement software composition analysis (SCA) tooling to detect malicious dependencies in supply chain.",
+        "relevance_to_defense": "Compromise of developer secrets and credentials through supply chain attacks directly enables adversary access to classified systems, proprietary defense technology, and DoD networks.",
+        "priority_score": 10
+      }
+    },
+
+
+
+    {
+      "title": "ThreatsDay Bulletin: PAN-OS RCE, Mythos cURL Bug, AI Tokenizer Attacks, and 10+ Stories",
+      "url": "https://thehackernews.com/2026/05/threatsday-bulletin-pan-os-rce-mythos.html",
+      "summary": "Palo Alto Networks released fixes for CVE-2026-0300, a critical buffer overflow vulnerability in PAN-OS User-ID Authentication Portal that allows unau...",
+      "category": "vulnerability",
+      "error": false,
+      "source": "https://thehackernews.com",
+      "scraped_at": "2026-05-15T19:33:28.680906+00:00",
+      "cve_ids": [
+        "CVE-2026-0300"
+      ],
+      "severity_hint": "Critical",
+      "affected_software": [
+        "Palo Alto Networks PAN-OS",
+        "User-ID Authentication Portal"
+      ],
+      "attack_type": "RCE",
+      "threat_actor": "Unknown",
+      "patch_available": true,
+      "defense_relevance": "Critical",
+      "keywords": [
+        "buffer overflow",
+        "unauthenticated",
+        "root privileges",
+        "in-the-wild exploitation"
+      ],
+      "analysis": {
+        "threat_level": "Critical",
+        "threat_summary": "CVE-2026-0300 is a critical buffer overflow in Palo Alto Networks PAN-OS User-ID Authentication Portal enabling unauthenticated remote code execution. This poses immediate risk to DOD and defense contractor network perimeters where PAN-OS is widely deployed.",
+        "affected_systems": [
+          "Palo Alto Networks PAN-OS",
+          "User-ID Authentication Portal"
+        ],
+        "attack_vector": "Unauthenticated attacker sends specially crafted input to the User-ID Authentication Portal triggering a buffer overflow that allows arbitrary code execution with system privileges.",
+        "affected_sectors": [
+          "Defense",
+          "Government",
+          "Critical Infrastructure"
+        ],
+        "recommended_action": "Immediately apply Palo Alto Networks patches for CVE-2026-0300 to all affected PAN-OS instances; prioritize internet-facing User-ID Authentication Portal deployments and implement network segmentation to limit exposure pending patch deployment.",
+        "relevance_to_defense": "PAN-OS firewalls are critical perimeter security controls for DOD networks and contractor facilities; this RCE vulnerability directly compromises network integrity and must be addressed immediately to prevent adversary lateral movement.",
+        "priority_score": 10
+      }
+    },
+
+
+
+    {
+      "title": "PraisonAI CVE-2026-44338 Auth Bypass Targeted Within Hours of Disclosure",
+      "url": "https://thehackernews.com/2026/05/praisonai-cve-2026-44338-auth-bypass.html",
+      "summary": "Threat actors began exploiting CVE-2026-44338, a missing authentication vulnerability in PraisonAI, within four hours of its public disclosure. The fl...",
+      "category": "vulnerability",
+      "error": false,
+      "source": "https://thehackernews.com",
+      "scraped_at": "2026-05-15T19:33:28.680906+00:00",
+      "cve_ids": [
+        "CVE-2026-44338"
+      ],
+      "severity_hint": "Unknown",
+      "affected_software": [
+        "PraisonAI"
+      ],
+      "attack_type": "Privilege Escalation",
+      "threat_actor": "Unknown",
+      "patch_available": false,
+      "defense_relevance": "Critical",
+      "keywords": [
+        "authentication bypass",
+        "API endpoints",
+        "unauthenticated access",
+        "CVE-2026-44338"
+      ],
+      "analysis": {
+        "threat_level": "Critical",
+        "threat_summary": "CVE-2026-44338 is an authentication bypass vulnerability in PraisonAI being actively exploited within hours of disclosure, enabling unauthorized privilege escalation. Rapid weaponization poses immediate risk to organizations utilizing this software for sensitive operations.",
+        "affected_systems": [
+          "PraisonAI"
+        ],
+        "attack_vector": "Threat actors bypass missing authentication controls to gain unauthorized access and escalate privileges without valid credentials.",
+        "affected_sectors": [
+          "Defense",
+          "Intelligence",
+          "Government",
+          "Technology"
+        ],
+        "recommended_action": "Immediately inventory all PraisonAI deployments, apply available patches or implement network-level access controls, and conduct forensic analysis for signs of compromise.",
+        "relevance_to_defense": "Active exploitation of authentication vulnerabilities in AI/automation tools poses direct operational security risk to DOD networks and defense contractor systems handling sensitive information.",
+        "priority_score": 10
+      }
+    },
+
+
+
+    {
+      "title": "Four OpenClaw Flaws Enable Data Theft, Privilege Escalation, and Persistence",
+      "url": "https://thehackernews.com/2026/05/four-openclaw-flaws-enable-data-theft.html",
+      "summary": "Researchers disclosed four security flaws in OpenClaw that can be chained together to achieve data theft, privilege escalation, and persistence. The v...",
+      "category": "vulnerability",
+      "error": false,
+      "source": "https://thehackernews.com",
+      "scraped_at": "2026-05-15T19:33:28.680906+00:00",
+      "cve_ids": [],
+      "severity_hint": "Unknown",
+      "affected_software": [
+        "OpenClaw"
+      ],
+      "attack_type": "Privilege Escalation",
+      "threat_actor": "Unknown",
+      "patch_available": false,
+      "defense_relevance": "Critical",
+      "keywords": [
+        "TOCTOU race condition",
+        "privilege escalation",
+        "sandbox bypass",
+        "persistence",
+        "data theft"
+      ],
+      "analysis": {
+        "threat_level": "Critical",
+        "threat_summary": "Four chained OpenClaw vulnerabilities enable complete system compromise through data theft, privilege escalation, and persistent backdoor access. This represents a critical risk to defense contractors due to the multi-stage attack capability and persistence mechanisms.",
+        "affected_systems": [
+          "OpenClaw"
+        ],
+        "attack_vector": "Attackers chain four vulnerabilities sequentially to escalate privileges, exfiltrate sensitive data, and establish persistent access on compromised systems.",
+        "affected_sectors": [
+          "Defense",
+          "Government",
+          "Technology"
+        ],
+        "recommended_action": "Immediately inventory all OpenClaw deployments across contractor networks, apply available patches, and conduct forensic analysis of systems for signs of compromise or persistence indicators.",
+        "relevance_to_defense": "OpenClaw vulnerabilities pose direct risk to DOD supply chain security and contractor systems handling classified or sensitive defense information.",
+        "priority_score": 9
+      }
+    },
+
+
+
+    {
+      "title": "TanStack Supply Chain Attack Hits Two OpenAI Employee Devices, Forces macOS Updates",
+      "url": "https://thehackernews.com/2026/05/tanstack-supply-chain-attack-hits-two.html",
+      "summary": "OpenAI disclosed that two employee devices were compromised via the Mini Shai-Hulud supply chain attack on TanStack, with unauthorized access to inter...",
+      "category": "malware",
+      "error": false,
+      "source": "https://thehackernews.com",
+      "scraped_at": "2026-05-15T19:33:28.680906+00:00",
+      "cve_ids": [],
+      "severity_hint": "High",
+      "affected_software": [
+        "TanStack",
+        "macOS",
+        "OpenAI internal systems"
+      ],
+      "attack_type": "Supply Chain",
+      "threat_actor": "Unknown",
+      "patch_available": true,
+      "defense_relevance": "Critical",
+      "keywords": [
+        "supply chain attack",
+        "TanStack",
+        "credential exfiltration",
+        "source code access",
+        "Mini Shai-Hulud"
+      ],
+      "analysis": {
+        "threat_level": "Critical",
+        "threat_summary": "The TanStack supply chain attack (Mini Shai-Hulud) successfully compromised OpenAI employee devices, demonstrating adversary capability to infiltrate high-value targets through trusted software dependencies. This attack vector poses severe risk to defense contractors who rely on open-source libraries and whose employees access classified or sensitive systems.",
+        "affected_systems": [
+          "TanStack library",
+          "macOS systems",
+          "OpenAI internal systems",
+          "Any organization using compromised TanStack versions"
+        ],
+        "attack_vector": "Malicious code injection into TanStack dependency chain, automatically deployed to systems with vulnerable library versions during updates.",
+        "affected_sectors": [
+          "Defense",
+          "Aerospace",
+          "Intelligence",
+          "Technology",
+          "Government"
+        ],
+        "recommended_action": "Immediately audit all TanStack dependencies across development environments, conduct forensic analysis of macOS devices that consumed compromised versions, revoke credentials for any affected systems, and implement mandatory code signing verification and software bill-of-materials (SBOM) tracking for all third-party dependencies.",
+        "relevance_to_defense": "Supply chain attacks targeting widely-used open-source libraries represent a critical vulnerability for DOD and defense contractors, as a single compromised dependency can grant adversaries access to multiple organizations handling classified information and weapons systems.",
+        "priority_score": 9
+      }
+    },
+
+
+
+    {
+      "title": "Ghostwriter Targets Ukrainian Government With Geofenced PDF Phishing, Cobalt Strike",
+      "url": "https://thehackernews.com/2026/05/ghostwriter-targets-ukrainian.html",
+      "summary": "Belarus-aligned threat group Ghostwriter conducted fresh attacks on Ukrainian government organizations using geofenced PDF phishing and Cobalt Strike....",
+      "category": "nation-state",
+      "error": false,
+      "source": "https://thehackernews.com",
+      "scraped_at": "2026-05-15T19:33:28.680906+00:00",
+      "cve_ids": [],
+      "severity_hint": "Unknown",
+      "affected_software": [
+        "Ukrainian Government Systems",
+        "PDF readers",
+        "Windows systems"
+      ],
+      "attack_type": "Phishing",
+      "threat_actor": "Ghostwriter",
+      "patch_available": false,
+      "defense_relevance": "Critical",
+      "keywords": [
+        "geofenced phishing",
+        "Cobalt Strike",
+        "Belarus-aligned",
+        "Ukrainian government",
+        "evasion techniques"
+      ],
+      "analysis": {
+        "threat_level": "Critical",
+        "threat_summary": "Belarus-aligned Ghostwriter group is actively targeting government systems with geofenced PDF phishing and Cobalt Strike implants, demonstrating sophisticated nation-state TTPs. This represents an immediate threat to government networks and establishes operational patterns relevant to potential US defense sector targeting.",
+        "affected_systems": [
+          "Ukrainian Government Systems",
+          "PDF Readers",
+          "Windows Systems"
+        ],
+        "attack_vector": "Geofenced PDF phishing emails delivering Cobalt Strike payloads to government personnel within specific geographic locations.",
+        "affected_sectors": [
+          "Government",
+          "Defense",
+          "Public Administration"
+        ],
+        "recommended_action": "Implement email filtering rules to block geofenced content delivery mechanisms, conduct immediate Cobalt Strike IOC hunting across enterprise networks, and enforce mandatory security awareness training focusing on PDF-based phishing with emphasis on verifying sender legitimacy before opening attachments.",
+        "relevance_to_defense": "Nation-state phishing and Cobalt Strike techniques employed against allied government infrastructure indicate capability and intent that poses direct risk to DOD networks and defense contractor systems sharing similar Windows/PDF environments.",
+        "priority_score": 9
+      }
+    }
+  ]
+}
