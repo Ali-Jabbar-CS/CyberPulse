@@ -154,19 +154,19 @@ A typical pipeline run produces:
 ## Screenshots
 
 ### Landing Animation
-![Landing](screenshots/landing.png)
+![Landing](screenshots/landing.png?v=2)
 
 ### Real-Time Pipeline Execution
-![Pipeline Running](screenshots/pipeline.png)
+![Pipeline Running](screenshots/pipeline.png?v=2)
 
 ### Threat Intelligence Dashboard
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](screenshots/dashboard.png?v=2)
 
 ### Expanded Threat Detail with Defense Context
-![Threat Detail](screenshots/threat-detail.png)
+![Threat Detail](screenshots/threat-detail.png?v=2)
 
 ### Pipeline Output
-![Terminal](screenshots/terminal.png)
+![Terminal](screenshots/terminal.png?v=2)
 
 ---
 
