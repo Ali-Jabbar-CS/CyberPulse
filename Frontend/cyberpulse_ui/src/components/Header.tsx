@@ -29,7 +29,7 @@ export function Header({ lastRunTime, onRunPipeline, onLoadReport, pipelineRunni
           </h1>
         </div>
         <p className="font-mono text-xs text-cyber-cyan/50 mt-2 uppercase tracking-widest pl-13">
-          AI-Powered Threat Intelligence Pipeline — ObjectSecurity
+          AI-Powered Threat Intelligence Pipeline
         </p>
       </div>
 
