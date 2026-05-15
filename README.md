@@ -1,6 +1,6 @@
 # CyberPulse
 
-**AI-Powered Threat Intelligence Pipeline for Defense Contractors**
+**AI-Powered Threat Intelligence Pipeline**
 
 CyberPulse is an end-to-end OSINT threat intelligence system that autonomously crawls cybersecurity news sources, enriches articles with structured security metadata, analyzes them from a defense contractor perspective using the Anthropic Claude API, and produces actionable threat reports — all visualized through a real-time futuristic dashboard.
 
@@ -74,7 +74,9 @@ pip install -r requirements.txt
 
 Create a `.env` file in the backend folder:
 
+```
 ANTHROPIC_API_KEY=your-key-here
+```
 
 Start the API server:
 
@@ -182,27 +184,3 @@ A typical pipeline run produces:
 ## License
 
 MIT
-
----
-
-## Acknowledgments
-
-Built as preparation for a software engineering internship at ObjectSecurity, San Diego — a defense cybersecurity firm specializing in binary vulnerability analysis, supply chain risk, and AI security automation.
-
-
-Then:
-
-mkdir screenshots
-# Save your screenshots into the screenshots/ folder as:
-# screenshots/dashboard.png
-# screenshots/landing.png
-# screenshots/pipeline.png
-
-git add .
-git commit -m "Initial commit: CyberPulse v1.0.0"
-git branch -M main
-# Create the repo on github.com first, then:
-git remote add origin https://github.com/Ali-Jabbar-CS/CyberPulse.git
-git push -u origin main
-git tag -a v1.0.0 -m "v1.0.0 - Full pipeline + dashboard"
-git push origin v1.0.0
